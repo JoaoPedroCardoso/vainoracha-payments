@@ -1,0 +1,1 @@
+web: java -Dserver.port=$PORT $JAVA_OPTS -jar vainoracha-payments-web/target/vainoracha-payments*.jar

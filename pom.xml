@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>br.com</groupId>
-	<artifactId>vainoracha-core</artifactId>
+	<artifactId>vainoracha-payments</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
-	<name>vainoracha-core</name>
+	<name>vainoracha-payments</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
@@ -26,12 +26,12 @@
 	</properties>
 
 	<modules>
-		<module>vainoracha-core-web</module>
-        <module>vainoracha-core-api</module>
-        <module>vainoracha-core-infrastructe</module>
-        <module>vainoracha-core-model</module>
-        <module>vainoracha-core-repository</module>
-        <module>vainoracha-core-service</module>
+		<module>vainoracha-payments-web</module>
+        <module>vainoracha-payments-api</module>
+        <module>vainoracha-payments-infrastructe</module>
+        <module>vainoracha-payments-model</module>
+        <module>vainoracha-payments-repository</module>
+        <module>vainoracha-payments-service</module>
     </modules>
 
 
@@ -39,32 +39,32 @@
         <dependencies>
             <dependency>
                 <groupId>${project.groupId}</groupId>
-                <artifactId>vainoracha-core-service</artifactId>
+                <artifactId>vainoracha-payments-service</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>${project.groupId}</groupId>
-                <artifactId>vainoracha-core-api</artifactId>
+                <artifactId>vainoracha-payments-api</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>${project.groupId}</groupId>
-                <artifactId>vainoracha-core-model</artifactId>
+                <artifactId>vainoracha-payments-model</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>${project.groupId}</groupId>
-                <artifactId>vainoracha-core-infrastructe</artifactId>
+                <artifactId>vainoracha-payments-infrastructe</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>${project.groupId}</groupId>
-                <artifactId>vainoracha-core-repository</artifactId>
+                <artifactId>vainoracha-payments-repository</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>${project.groupId}</groupId>
-                <artifactId>vainoracha-core-web</artifactId>
+                <artifactId>vainoracha-payments-web</artifactId>
                 <version>${project.version}</version>
             </dependency>
         </dependencies>
@@ -109,6 +109,21 @@
             <artifactId>kotlin-test</artifactId>
             <version>${kotlin.version}</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.nhaarman</groupId>
+            <artifactId>mockito-kotlin-kt1.1</artifactId>
+            <version>1.5.0</version>
+        </dependency>
+        <dependency>
+            <groupId>io.projectreactor</groupId>
+            <artifactId>reactor-core</artifactId>
+
+        </dependency>
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <scope>runtime</scope>
         </dependency>
     </dependencies>
 

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="vainoracha-payments-api" />
+        <module name="vainoracha-payments-infrastructe" />
+        <module name="vainoracha-payments-model" />
+        <module name="vainoracha-payments-repository" />
+        <module name="vainoracha-payments-service" />
+        <module name="vainoracha-payments-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="vainoracha-core-api" target="1.8" />
+      <module name="vainoracha-core-model" target="1.8" />
+      <module name="vainoracha-core-repository" target="1.8" />
+      <module name="vainoracha-core-service" target="1.8" />
+      <module name="vainoracha-core-web" target="1.8" />
+      <module name="vainoracha-payments" target="1.8" />
+      <module name="vainoracha-payments-api" target="1.8" />
+      <module name="vainoracha-payments-infrastructe" target="1.8" />
+      <module name="vainoracha-payments-model" target="1.8" />
+      <module name="vainoracha-payments-repository" target="1.8" />
+      <module name="vainoracha-payments-service" target="1.8" />
+      <module name="vainoracha-payments-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
