@@ -9,8 +9,8 @@ import org.springframework.context.annotation.Configuration
 
 @SpringBootApplication
 @Configuration
-@ComponentScan(basePackages = ["br.com.vainoracha.core", "br.com.vainoracha.core.service"])
-@EntityScan(basePackages = ["br.com.vainoracha.core.model"])
+@ComponentScan(basePackages = ["br.com.vainoracha.payments", "br.com.vainoracha.payments.service"])
+@EntityScan(basePackages = ["br.com.vainoracha.payments.model"])
 @EnableAutoConfiguration
 open class VainorachaCoreApplication
 
